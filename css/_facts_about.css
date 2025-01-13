@@ -1,0 +1,18 @@
+.facts-about {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1.5rem;
+}
+
+.facts-about div {
+    padding: 1em .8em;
+
+    color: #fff;
+    background-color: var(--color);
+
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+
+    font-size: 1.8rem;
+}
