@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Главная</title>
+</head>
+<body>
+
+<!-- Шапка -->
+<header class="mb-4">
+    <div class="header-container">
+        <!-- Логотип -->
+        <a href="index.html">
+            <img src="images/logo.png" alt="Логотип">
+        </a>
+
+        <!-- Навигация -->
+        <nav>
+            <a href="#">Поиск</a>
+            <a href="#">Регистрация</a>
+            <a href="#">Личный кабинет</a>
+            <a href="#">Добавить</a>
+            <a href="#">Отзывы</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Основная часть -->
+<main>
+    <!-- Слайдер -->
+    <div class="slider mb-4">
+        <div class="slider__image-container"></div>
+
+        <div class="slider__info">
+            <div class="info__text">
+                <div class="text__pet-type">Собака</div>
+
+                <div class="text__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolores enim, error est
+                    obcaecati odio.
+                </div>
+            </div>
+
+            <a href="#">Подробнее</a>
+        </div>
+    </div>
+
+    <!-- Секция с быстрым поиском животного -->
+    <section class="fast-search">
+        <h2>Поиск по виду животного</h2>
+
+        <form action="">
+            <input type="search" name="pet" id="pet">
+            <button type="submit">Поиск</button>
+        </form>
+    </section>
+
+    <!-- Факты о компании -->
+    <section class="facts-about">
+        <div>Помогли найти более 500 животных.</div>
+        <div>Более трех лет способствуем возвращению питомцев к хозяевам.</div>
+        <div>Все услуги оказываются бесплатно.</div>
+    </section>
+
+    <!-- Карточки с найденными животными -->
+    <section class="found">
+        <div class="found__card">
+            <img src="" alt="Фото животного">
+            <div class="card__location">Место, где найдено животное</div>
+            <a href="tel:+79000000000">+7 (900) 000-00-00</a>
+            <time datetime="2024-01-01">01.01.2024</time>
+            <div class="card__user">Зарегистрирован</div>
+        </div>
+    </section>
+
+    <!-- Форма поиска -->
+    <form action="" class="search-pet">
+        <input type="text" name="district" id="district">
+
+        <select name="pet_type" id="pet-type">
+            <option value="cat">Кошка</option>
+        </select>
+
+        <input type="text" name="pet_type_text" id="pet-type-text">
+
+        <button type="submit">Поиск</button>
+    </form>
+
+    <!-- Отзывы -->
+    <section class="reviews">
+        <div class="reviews__slide">
+            <div>Имя автора</div>
+            <img src="" alt="Фото животного">
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias animi deserunt dolor ducimus
+                eveniet, exercitationem explicabo, iusto magni molestiae perferendis porro quo ratione reprehenderit sed
+                sequi temporibus vel voluptate?
+            </p>
+
+            <time datetime="2024-01-01">01.01.2024</time>
+        </div>
+    </section>
+
+    <!-- Форма для подписки на новости сервиса -->
+    <form action="" class="subscribe-news">
+        <input type="email" name="email" id="email">
+
+        <input type="checkbox" name="agreement" id="agreement">
+        <label for="agreement">Согласие на обработку персональных данных</label>
+
+        <button type="submit">Подписаться</button>
+    </form>
+</main>
+
+<!-- Подвал -->
+<footer>
+    <a href="tel:+78001234567">8 (800) 123-45-67</a>
+    <a href="mailto:mail@newlife.ru">mail@newlife.ru</a>
+
+    <nav>
+        <a href="#">Главная</a>
+        <a href="#">Регистрация</a>
+        <a href="#">Авторизация</a>
+        <a href="#">Личный кабинет</a>
+        <a href="#">Найдено животное</a>
+        <a href="#">Поиск</a>
+    </nav>
+</footer>
+
+</body>
+</html>

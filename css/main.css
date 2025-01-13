@@ -1,0 +1,13 @@
+@import "_variables.css";
+@import "_header.css";
+@import "_slider.css";
+@import "_fast_search.css";
+
+.mb-4 {
+    margin-bottom: 4rem;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}

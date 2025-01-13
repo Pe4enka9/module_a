@@ -1,0 +1,59 @@
+.slider {
+    height: 70vh;
+
+    display: flex;
+
+    background-color: var(--color);
+
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+
+    overflow: hidden;
+}
+
+.slider__image-container {
+    width: 90%;
+
+    background: url("../images/animals/1-1.png") no-repeat center / cover;
+}
+
+.slider__info {
+    padding: 2.5rem;
+
+    color: #fff;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.slider__info .text__pet-type {
+    margin-bottom: 2.5rem;
+
+    font-size: 3.5rem;
+}
+
+.slider__info .text__description {
+    font-size: 1.8rem;
+}
+
+.slider__info a {
+    width: fit-content;
+
+    padding: .5em 1em;
+
+    display: block;
+    align-self: flex-end;
+
+    background-color: var(--secondary);
+    color: #fff;
+
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+
+    font-size: 1.8rem;
+
+    text-decoration: none;
+}
