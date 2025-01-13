@@ -9,7 +9,7 @@
     padding: .3em .7em;
 
     outline: none;
-    border: 2px solid var(--color);
+    border: .2rem solid var(--color);
     -webkit-border-radius: .5em;
     -moz-border-radius: .5em;
     border-radius: .5em;
@@ -20,7 +20,7 @@
 }
 
 .fast-search input:focus {
-    border: 2px solid var(--secondary);
+    border: .2rem solid var(--secondary);
 }
 
 .fast-search form {
