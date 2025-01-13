@@ -3,6 +3,7 @@
 @import "_slider.css";
 @import "_fast_search.css";
 @import "_facts_about.css";
+@import "_found.css";
 
 .mb-4 {
     margin-bottom: 4rem;

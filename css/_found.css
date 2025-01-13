@@ -1,0 +1,61 @@
+.found {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    grid-gap: 3rem;
+}
+
+.found__card {
+    height: fit-content;
+
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+
+    overflow: hidden;
+}
+
+.card__image-container {
+    height: 50rem;
+
+    display: flex;
+    align-items: flex-end;
+
+    background: var(--secondary) url("../images/animals/1-1.png") no-repeat center / cover;
+}
+
+.card__info {
+    width: 100%;
+
+    padding: 1em .8em;
+
+    color: #fff;
+    background-color: var(--secondary);
+
+    font-size: 1.8rem;
+
+    -webkit-box-shadow: 0 -3rem 1rem rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 -3rem 1rem rgba(0, 0, 0, .2);
+    box-shadow: 0 -3rem 1rem rgba(0, 0, 0, .2);
+}
+
+.info__location {
+    font-size: inherit;
+}
+
+.card__info a {
+    display: block;
+
+    color: inherit;
+
+    font-size: inherit;
+
+    text-decoration: none;
+}
+
+.card__info time {
+    font-size: inherit;
+}
+
+.info__user {
+    font-size: inherit;
+}
