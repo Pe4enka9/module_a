@@ -1,7 +1,7 @@
 header {
     padding: 1rem 0;
 
-    background-color: #409a82;
+    background-color: var(--headerFooter);
 }
 
 .header-container {
@@ -29,4 +29,9 @@ header nav a {
     font-size: 1.8rem;
 
     text-decoration: none;
+    transition: .2s;
+}
+
+header nav a:hover {
+    color: #d8d8d8;
 }

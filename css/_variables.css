@@ -1,7 +1,9 @@
 :root {
     --main: #a7a9ac;
     --secondary: #0a73b3;
+    --headerFooter: #409a82;
     --color: #424142;
+    --buttonHover: #096ca6;
 }
 
 @font-face {

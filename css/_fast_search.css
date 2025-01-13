@@ -1,5 +1,55 @@
+.fast-search {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .fast-search input {
     padding: .3em .7em;
 
+    outline: none;
+    border: 2px solid var(--color);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+
     font-size: 1.6rem;
+
+    transition: .2s;
+}
+
+.fast-search input:focus {
+    border: 2px solid var(--secondary);
+}
+
+.fast-search form {
+    display: flex;
+    gap: 1rem;
+}
+
+.fast-search button {
+    width: fit-content;
+
+    padding: .5em 1em;
+
+    display: block;
+
+    background-color: var(--secondary);
+    color: #fff;
+
+    border: none;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+
+    font-size: 1.8rem;
+
+    text-decoration: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.fast-search button:hover {
+    background-color: var(--buttonHover);
 }
