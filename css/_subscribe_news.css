@@ -1,0 +1,66 @@
+.subscribe-news {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+}
+
+.subscribe-news input {
+    width: fit-content;
+    height: 3.9rem;
+
+    padding: .3em .7em;
+
+    background-color: #fff;
+
+    outline: none;
+    border: .2rem solid var(--color);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+
+    font-size: 1.6rem;
+
+    transition: .2s;
+}
+
+.subscribe-news input:focus {
+    border: .2rem solid var(--secondary);
+}
+
+.subscribe-news__checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+
+    font-size: 1.8rem;
+}
+
+.subscribe-news__checkbox-container label {
+    font-size: inherit;
+}
+
+.subscribe-news button {
+    width: fit-content;
+
+    padding: .5em 1em;
+
+    display: block;
+
+    background-color: var(--secondary);
+    color: #fff;
+
+    border: none;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+
+    font-size: 1.8rem;
+
+    text-decoration: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.subscribe-news button:hover {
+    background-color: var(--buttonHover);
+}

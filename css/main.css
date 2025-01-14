@@ -4,6 +4,10 @@
 @import "_fast_search.css";
 @import "_facts_about.css";
 @import "_found.css";
+@import "_search_pet.css";
+@import "_reviews.css";
+@import "_subscribe_news.css";
+@import "_footer.css";
 
 .mb-4 {
     margin-bottom: 4rem;

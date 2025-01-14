@@ -1,0 +1,62 @@
+.reviews__slide {
+    padding: 4rem 3rem;
+
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    background-color: var(--color);
+
+    border-radius: 1rem;
+
+    position: relative;
+}
+
+.slide__image-container {
+    width: 15rem;
+    height: 15rem;
+
+    flex-shrink: 0;
+
+    background: var(--main) url('../images/people/517401_4.jpg') no-repeat center / cover;
+
+    border-radius: 50%;
+}
+
+.slide__info {
+    color: #fff;
+    
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.slide__info div,
+.slide__info p,
+.slide__info time {
+    font-size: inherit;
+}
+
+.slide__buttons {
+    display: flex;
+    gap: 1.5rem;
+
+    position: absolute;
+    left: 50%;
+    bottom: 2rem;
+    transform: translateX(-50%);
+}
+
+.buttons__btn {
+    width: 3rem;
+    height: .5rem;
+
+    background-color: #fff;
+
+    border-radius: 1rem;
+}
+
+.buttons__btn.active {
+    background-color: var(--secondary);
+}

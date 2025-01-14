@@ -1,0 +1,55 @@
+.search-pet {
+    display: flex;
+    gap: 1rem;
+}
+
+.search-pet input,
+.search-pet select {
+    padding: .3em .7em;
+
+    background-color: #fff;
+
+    outline: none;
+    border: .2rem solid var(--color);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+
+    font-size: 1.6rem;
+
+    transition: .2s;
+}
+
+.search-pet option {
+    font-size: inherit;
+}
+
+.search-pet input:focus {
+    border: .2rem solid var(--secondary);
+}
+
+.search-pet button {
+    width: fit-content;
+
+    padding: .5em 1em;
+
+    display: block;
+
+    background-color: var(--secondary);
+    color: #fff;
+
+    border: none;
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+
+    font-size: 1.8rem;
+
+    text-decoration: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.search-pet button:hover {
+    background-color: var(--buttonHover);
+}
